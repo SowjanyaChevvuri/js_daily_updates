@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var weight=prompt("Enter a weight in kilograms ")
+        var height=prompt("Enter a height in meter")
+        var bmi=weight/(height*height)
+        if(bmi>=18.5 && bmi<25)
+        {
+            document.write("Healthy Weight")
+        }
+        else
+        if(bmi>=25 && bmi<31)
+        {
+            document.write("Overweight")
+        }
+        else
+        if(bmi<=31)
+        {
+            document.write("Obesity")
+        }
+        else
+        {
+            document.write("Under Weight")
+        }
+    </script>
+</body>
+</html>
